@@ -40,7 +40,7 @@ Your location leaves the phone only when you ask for walking directions to a pla
 
 Voice commands are optional. When you use one, your phone's own speech recognizer turns your speech into text. On Android this is usually a Google service, on iPhone it is Apple's. Your voice recording never reaches our server.
 
-The app then sends the recognized text, the language and the recognizer's confidence to our server, which works out the command (for example "play" or "next stop") and sends it back. We do not store the text.
+The app then sends the recognized text, the language and the recognizer's confidence to our server, which works out the command (for example "what next" or "something nearby") and sends it back. We do not store the text.
 
 ### Usage statistics
 
