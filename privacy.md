@@ -6,7 +6,7 @@ title: Tellura Privacy Policy
 
 # Tellura Privacy Policy
 
-Last updated: October 12, 2026
+Last updated: October 15, 2026
 
 ## Who we are
 
@@ -16,7 +16,7 @@ Tellura is an audio guide app for walking around a city. If you have a question 
 
 ### Your account
 
-The first time you open Tellura, the app creates a guest account for you. It is a random id, not tied to your name, email or phone number. We use it to keep your settings, saved places, ratings and walk progress on our server, so they survive a reinstall after you sign in. You cannot use the app without it.
+The first time you open Tellura, the app creates a guest account for you. It is a random id, not tied to your name, email or phone number. We use it to keep your settings, saved places, ratings and listened places on our server. After you sign in, your saved places, ratings and listened places come back when you reinstall the app or sign in on a new phone; what you did as a guest on that phone is added to your account. You cannot use the app without it.
 
 ### Sign in with Google
 
