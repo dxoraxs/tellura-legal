@@ -16,7 +16,7 @@ Tellura is an audio guide app for walking around a city. If you have a question 
 
 ### Your account
 
-The first time you open Tellura, the app creates a guest account for you. It is a random id, not tied to your name, email or phone number. We use it to keep your settings, saved places, ratings and listened places on our server. After you sign in, your saved places, ratings and listened places come back when you reinstall the app or sign in on a new phone; what you did as a guest on that phone is added to your account. You cannot use the app without it.
+The first time you open Tellura, the app creates a guest account for you. It is a random id, not tied to your name, email or phone number. We use it to keep your settings, saved places, ratings and listened places on our server. After you sign in, your saved places, ratings and listened places come back when you reinstall the app or sign in on a new phone; what you did as a guest on that phone is added to your account. If you bought the unlock, signing in with Google keeps the purchase on your account across reinstalls and phones; as a guest, "Restore purchase" with the same Google Play account brings the purchase back, and once a purchase belongs to a signed-in account, sign in with that account to use it on another phone. You cannot use the app without it.
 
 ### Sign in with Google
 
@@ -51,6 +51,10 @@ These events never contain your email, your name, your location, anything you sa
 ### Crash reports
 
 When the app crashes or hits an error, it sends a report to Sentry so we can fix it. A report contains the error, your phone model and system version, the app version, the app session id, the interface and narration language, and whether you use a guest or a signed in account. It does not contain your account id, email, name or location, and the app never sends screenshots or screen recordings.
+
+### Purchases
+
+Tellura sells one in-app purchase, which unlocks all walks and the in-depth stories. Google Play processes the payment, and we never see your card details. We receive and store the purchase token, order id, product and time of the purchase, and use them only to unlock the content on your account. With a purchase, the app also sends Google Play a one-way hash of your Tellura account id, so the purchase stays tied to that account. When a purchase is refunded or charged back, we keep a record of it, without any link to your account, to stop the purchase from being used again. This record holds the purchase token, the order id, the time of the refund and the refund codes Google reports, and it stays after you delete your account. Everything else in this section is deleted with your account.
 
 ### Map
 

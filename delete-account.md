@@ -30,6 +30,7 @@ Your account and everything linked to it on our server:
 - your ratings of places and walks
 - feedback you sent
 - usage statistics recorded for your account
+- purchase records (purchase token, order id, product and time); the payment itself stays with Google Play, and a purchase can be restored on a new account with "Restore purchase" and the same Google Play account
 
 The app also clears this data on your phone. Downloaded walks stay on the phone until you remove the app.
 
